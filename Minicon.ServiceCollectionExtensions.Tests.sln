@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minicon.ServiceCollectionExtensions.Tests", "Minicon.ServiceCollectionExtensions.Tests\Minicon.ServiceCollectionExtensions.Tests.csproj", "{8B778896-BB46-47D6-BFC1-7C27C7671611}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minicon.ServiceCollectionExtensions.LoggingInterceptors", "Minicon.ServiceCollectionExtensions.LoggingInterceptors\Minicon.ServiceCollectionExtensions.LoggingInterceptors.csproj", "{F28D85C0-9A83-4CC6-B8BA-FF540564D295}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8B778896-BB46-47D6-BFC1-7C27C7671611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B778896-BB46-47D6-BFC1-7C27C7671611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B778896-BB46-47D6-BFC1-7C27C7671611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F28D85C0-9A83-4CC6-B8BA-FF540564D295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F28D85C0-9A83-4CC6-B8BA-FF540564D295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F28D85C0-9A83-4CC6-B8BA-FF540564D295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F28D85C0-9A83-4CC6-B8BA-FF540564D295}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

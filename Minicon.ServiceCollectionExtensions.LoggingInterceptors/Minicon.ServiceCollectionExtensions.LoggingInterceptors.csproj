@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable> 
+			<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+			<Title>Minicon.ServiceCollectionExtensions.LoggingInterceptors</Title>
+			<Authors>Michael Nikolaus</Authors>
+			<Description>Add simple way to add Logging Interceptor to the ServiceCollection.</Description>
+			<PackageProjectUrl>https://github.com/Minicon-eG/ServiceCollectionExtensions</PackageProjectUrl>
+			<RepositoryUrl>https://github.com/Minicon-eG/ServiceCollectionExtensions.git</RepositoryUrl>
+			<RepositoryType>git</RepositoryType>
+			<PackageTags>ServiceCollectionExtension Logging Interceptor</PackageTags>
+			<AssemblyVersion>1.0.0</AssemblyVersion>
+			<FileVersion>1.0.0</FileVersion>
+			<NeutralLanguage>en-US</NeutralLanguage>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Castle.Core" Version="5.1.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.4" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>
